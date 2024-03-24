@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "tailwind": "tailwindcss -i ./resources/css/dev.css -o ./public/css/app.css --watch"
+    },
+    "devDependencies": {
+        "axios": "^1.6.8",
+        "daisyui": "^4.7.3",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "tailwindcss": "^3.4.1"
+    }
+}
