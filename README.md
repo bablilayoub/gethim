@@ -21,7 +21,7 @@ You are going to need to have [PHP](https://www.php.net/) 8.0 or higher installe
 
 1. Clone the repository
 ```bash
-git clone https://github.com/bablilayoub/shortlink
+git clone https://github.com/bablilayoub/gethim
 ```
 
 2. Install the dependencies
