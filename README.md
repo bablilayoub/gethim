@@ -44,6 +44,9 @@ cp .env.example .env
 
 5. Update the `.env` file with your database credentials
 ```bash
+APP_URL=http://localhost:8000
+DEFAULT_DOMAIN_FOR_LINKS=http://localhost:8000
+
 DB_CONNECTION=mysql
 DB_HOST=
 DB_PORT=3306
